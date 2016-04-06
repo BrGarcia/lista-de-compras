@@ -9,8 +9,28 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="br.com.brdev.listacompras.Main">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Cadastrar Produto"
+        android:id="@+id/buttonCadastrarProduto"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar Preço"
+        android:id="@+id/buttonConsultarPreco"
+        android:layout_below="@+id/buttonCadastrarProduto"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Montar Lista de Compras"
+        android:id="@+id/buttonMontarListaCompras"
+        android:layout_below="@+id/buttonConsultarPreco"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
